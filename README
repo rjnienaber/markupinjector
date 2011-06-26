@@ -1,0 +1,14 @@
+Usage
+----------------
+It's easy to use MarkupInjector. Add a reference to MarkupInjector.dll to your project. On application startup,
+it will register an HttpModule which will intercept responses to the client and inject markup on each page.
+
+Here's a simple example:
+
+    protected void Application_Start()
+    {
+		InjectMarkup.InHead(() => "<title>Injected tile from markupinjector</title>");
+		InjectMarkup.InBody(() => "<span>Injected markup from markupinjector</span>");
+    }
+
+This should inject a <title> tag before </head> and a <span> tag before </body>
