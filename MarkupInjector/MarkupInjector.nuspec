@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <authors>Richard Nienaber</authors>
+    <owners>Richard Nienaber</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
+    <projectUrl>https://github.com/rjnienaber/markupinjector</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Let's you inject markup before certain tags in asp.net webforms/mvc applications</description>
+    <tags>html markup asp.net mvc webforms</tags>
+  </metadata>
+</package>
